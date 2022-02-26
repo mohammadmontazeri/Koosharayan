@@ -18,10 +18,6 @@
         <li class="active">یک سرویس آزمایشی</li>
         @endsection
 
-					</div>
-				</div>
-			</div>
-		</div>
 		<!-- ***** Page Top End ***** -->
 
 		<!-- ***** Page Content Start ***** -->
@@ -100,6 +96,9 @@
 			</div>
 		</div>
 		<!-- ***** Page Content End ***** -->
+        
+        @endsection
+
 	</section>
 
 
@@ -107,13 +106,6 @@
 
 	<!-- ***** Footer End ***** -->
 
-
-
-
-
-
-
-@endsection
 
 @section('js')
 <script src="{{asset('/js/jquery.magnific-popup.min.js')}}"></script>
